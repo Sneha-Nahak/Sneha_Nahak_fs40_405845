@@ -1,0 +1,36 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.logo {
+  height: 40px;
+}
+
+.suggestions-box {
+  position: absolute;
+  top: 60px;
+  background: white;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  z-index: 1001;
+}
+
+.suggestions-box div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestions-box div:hover {
+  background-color: #f0f0f0;
+}
+
+.video-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+}
